@@ -75,7 +75,7 @@ namespace NasaProjekt
 
        
         
-        private void NewsFeedButton(object sender, EventArgs e)
+        private void APODButton(object sender, EventArgs e)
         {
             panel2.Visible = false;
             panel3.Visible = false;
@@ -194,7 +194,7 @@ namespace NasaProjekt
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LoadButton(object sender, EventArgs e)
         {
             Apog();
         }

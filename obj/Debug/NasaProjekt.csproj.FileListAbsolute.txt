@@ -66,3 +66,6 @@ C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\D
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\Microsoft.Web.Infrastructure.xml
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\System.Web.Razor.xml
 C:\Users\Joel\Desktop\NasaProject-2e4396a883cb7e9e18e9a6e8942b8d19c583abb0\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Marcus\Documents\GitHub\Nasa\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\Marcus\Documents\GitHub\Nasa\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\Marcus\Documents\GitHub\Nasa\obj\Debug\WindowsFormsApplication3.pdb

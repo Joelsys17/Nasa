@@ -225,7 +225,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Garamond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.NewsFeedButton);
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.APODButton);
             // 
             // panel2
             // 
@@ -421,7 +421,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Load Apog";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.LoadButton);
             // 
             // bunifuCustomLabel2
             // 
