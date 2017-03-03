@@ -1,25 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
-using System.Runtime.InteropServices;
-using System.Net.Http;
-using Newtonsoft.Json;
 
 namespace NasaProjekt
 {
-        public partial class Form1 : Form
+        public partial class LoginScreen : Form
         {
             private string conn;
             private MySqlConnection connect;
-        public Form1()
+        public LoginScreen()
             {
             InitializeComponent();            
         }
@@ -106,7 +95,6 @@ namespace NasaProjekt
             }
         }
 
-
         protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
@@ -119,11 +107,6 @@ namespace NasaProjekt
             }
             base.WndProc(ref m);
         }
-
-
-        /// Gör klassen dragbar^ Ändra inte den koden.
-
-
 
         private void MainWindow(object sender, EventArgs e)
         {
@@ -183,7 +166,7 @@ namespace NasaProjekt
             {
                 label2.Text = ("Welcome!");
                 this.Hide();
-                Form2 form2 = new Form2();
+                MainProgram form2 = new MainProgram();
                 form2.ShowDialog();
                 this.Show();
             }
@@ -326,7 +309,7 @@ namespace NasaProjekt
         {
 
         }
-}
+    }
 }
 
 

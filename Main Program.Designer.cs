@@ -1,6 +1,6 @@
 ﻿namespace NasaProjekt
 {
-    partial class Form2
+    partial class MainProgram
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainProgram));
             this.panel1 = new System.Windows.Forms.Panel();
             this.StreamButton = new ns1.BunifuFlatButton();
             this.bunifuFlatButton2 = new ns1.BunifuFlatButton();

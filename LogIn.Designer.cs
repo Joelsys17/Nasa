@@ -1,6 +1,6 @@
 ﻿namespace NasaProjekt
 {
-    partial class Form1
+    partial class LoginScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginScreen));
             this.bunifuElipse1 = new ns1.BunifuElipse(this.components);
             this.LogInRegisterButton = new ns1.BunifuFlatButton();
             this.slide1 = new System.Windows.Forms.Panel();

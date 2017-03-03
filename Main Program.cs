@@ -1,22 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net;
-using System.IO;
 using Newtonsoft.Json;
 using System.Net.Http;
 
 namespace NasaProjekt
 {
-    public partial class Form2 : Form
+    public partial class MainProgram : Form
     {
-        public Form2()
+        public MainProgram()
         {
             InitializeComponent();
         }
@@ -32,8 +24,6 @@ namespace NasaProjekt
             }
             base.WndProc(ref m);
         }
-
-        //Kör att man kan flytta klassen
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -118,7 +108,7 @@ namespace NasaProjekt
            
         }
 
-        public void Apog()
+        public void Apod()
         {
             var url = "https://api.nasa.gov/planetary/apod?api_key=OVsPMKMSQrgvBJ0Q14jiTx0jvMkmaRgJD1CbCVRL";
             var client = new HttpClient();
@@ -196,7 +186,7 @@ namespace NasaProjekt
 
         private void LoadButton(object sender, EventArgs e)
         {
-            Apog();
+            Apod();
         }
         public void CreateImage(Nasa parseddata)
         {
