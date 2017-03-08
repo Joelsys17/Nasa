@@ -46,7 +46,6 @@
             this.bunifuCustomLabel3 = new ns1.BunifuCustomLabel();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.Stream = new ns1.BunifuCustomLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -231,7 +230,7 @@
             // 
             this.panel2.Controls.Add(this.webBrowser4);
             this.panel2.Location = new System.Drawing.Point(2027, 11);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(864, 613);
             this.panel2.TabIndex = 1;
@@ -241,10 +240,10 @@
             // webBrowser4
             // 
             this.webBrowser4.Location = new System.Drawing.Point(10, 23);
-            this.webBrowser4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser4.Margin = new System.Windows.Forms.Padding(2);
             this.webBrowser4.MinimumSize = new System.Drawing.Size(15, 16);
             this.webBrowser4.Name = "webBrowser4";
-            this.webBrowser4.Size = new System.Drawing.Size(852, 546);
+            this.webBrowser4.Size = new System.Drawing.Size(852, 574);
             this.webBrowser4.TabIndex = 4;
             this.webBrowser4.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser4_DocumentCompleted);
             // 
@@ -254,7 +253,7 @@
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.Location = new System.Drawing.Point(1035, 10);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(18, 23);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -269,7 +268,7 @@
             this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
             this.bunifuImageButton2.ImageActive = null;
             this.bunifuImageButton2.Location = new System.Drawing.Point(1066, 10);
-            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Size = new System.Drawing.Size(22, 23);
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -295,7 +294,7 @@
             this.panel3.Controls.Add(this.webBrowser3);
             this.panel3.Controls.Add(this.bunifuCustomLabel1);
             this.panel3.Location = new System.Drawing.Point(2969, 11);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(864, 613);
             this.panel3.TabIndex = 12;
@@ -316,9 +315,8 @@
             this.panel7.Controls.Add(this.bunifuCustomLabel3);
             this.panel7.Controls.Add(this.webBrowser2);
             this.panel7.Controls.Add(this.webBrowser1);
-            this.panel7.Controls.Add(this.Stream);
             this.panel7.Location = new System.Drawing.Point(1105, 34);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(864, 613);
             this.panel7.TabIndex = 13;
@@ -330,7 +328,7 @@
             this.bunifuCustomLabel4.AutoSize = true;
             this.bunifuCustomLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(143, 17);
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(415, 14);
             this.bunifuCustomLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(61, 29);
@@ -342,7 +340,7 @@
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(491, 340);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(372, 321);
             this.bunifuCustomLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(133, 29);
@@ -351,34 +349,22 @@
             // 
             // webBrowser2
             // 
-            this.webBrowser2.Location = new System.Drawing.Point(339, 381);
+            this.webBrowser2.Location = new System.Drawing.Point(106, 353);
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.Size = new System.Drawing.Size(425, 306);
+            this.webBrowser2.Size = new System.Drawing.Size(649, 251);
             this.webBrowser2.TabIndex = 2;
             this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(15, 49);
+            this.webBrowser1.Location = new System.Drawing.Point(106, 43);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(425, 306);
+            this.webBrowser1.Size = new System.Drawing.Size(649, 275);
             this.webBrowser1.TabIndex = 2;
             this.webBrowser1.Url = new System.Uri("http://v", System.UriKind.Absolute);
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
-            // 
-            // Stream
-            // 
-            this.Stream.AutoSize = true;
-            this.Stream.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Stream.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Stream.Location = new System.Drawing.Point(425, 6);
-            this.Stream.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Stream.Name = "Stream";
-            this.Stream.Size = new System.Drawing.Size(96, 29);
-            this.Stream.TabIndex = 1;
-            this.Stream.Text = "Stream";
             // 
             // panel4
             // 
@@ -387,7 +373,7 @@
             this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.bunifuCustomLabel2);
             this.panel4.Location = new System.Drawing.Point(151, 11);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(864, 613);
             this.panel4.TabIndex = 13;
@@ -397,7 +383,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(120, 474);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(647, 114);
             this.richTextBox1.TabIndex = 7;
@@ -406,7 +392,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(0, 72);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(862, 398);
             this.pictureBox1.TabIndex = 6;
@@ -415,7 +401,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(419, 592);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 4;
@@ -435,12 +421,12 @@
             this.bunifuCustomLabel2.TabIndex = 2;
             this.bunifuCustomLabel2.Text = "Astronomy Picture of the Day";
             // 
-            // Form2
+            // MainProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1099, 680);
+            this.ClientSize = new System.Drawing.Size(1097, 680);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
@@ -449,7 +435,7 @@
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
+            this.Name = "MainProgram";
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -481,7 +467,6 @@
         private System.Windows.Forms.Panel panel4;
         private ns1.BunifuFlatButton StreamButton;
         private System.Windows.Forms.Panel panel7;
-        private ns1.BunifuCustomLabel Stream;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.WebBrowser webBrowser2;
         private ns1.BunifuCustomLabel bunifuCustomLabel4;
