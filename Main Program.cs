@@ -186,11 +186,15 @@ namespace NasaProjekt
 
         private void LoadButton(object sender, EventArgs e)
         {
-            Apod();
         }
         public void CreateImage(Nasa parseddata)
         {
             pictureBox1.ImageLocation = parseddata.ToString();
+        }
+
+        private void bunifuFlatButton4_Click_1(object sender, EventArgs e)
+        {
+            Apod();
         }
     }
 }
