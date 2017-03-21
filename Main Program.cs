@@ -11,6 +11,7 @@ namespace NasaProjekt
         public MainProgram()
         {
             InitializeComponent();
+            panel4.Visible = true;
         }
         protected override void WndProc(ref Message m)
         {
