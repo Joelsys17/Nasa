@@ -17,7 +17,7 @@ namespace NasaProjekt
             {
                 try
                 {
-                    conn = "Server=81.226.64.94;Database=sys17;Uid=username;Pwd=password;";
+                    conn = "Server=81.226.64.14;Database=sys17;Uid=username;Pwd=password;";
                     connect = new MySqlConnection(conn);
                     connect.Open();
                 }

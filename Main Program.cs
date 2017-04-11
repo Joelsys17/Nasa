@@ -3,6 +3,8 @@ using System.Drawing;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.Net;
+using System.Threading.Tasks;
 
 namespace NasaProjekt
 {
@@ -111,23 +113,24 @@ namespace NasaProjekt
 
         public void Apod()
         {
-            var url = "https://api.nasa.gov/planetary/apod?api_key=OVsPMKMSQrgvBJ0Q14jiTx0jvMkmaRgJD1CbCVRL";
+            var url = "https://api.nasa.gov/planetary/apod?api_key=WEh7seSLeP9pAhhAfKldt1MdJix5t19wFkGcjXtj";
             var client = new HttpClient();
             var response = client.GetAsync(url).Result;
             var Data = response.Content.ReadAsStringAsync().Result;
             var parsedData = JsonConvert.DeserializeObject<Nasa>(Data);
+
 
             if (parsedData.media_type.Equals("image"))
             {
                 pictureBox1.ImageLocation = parsedData.url.ToString();
                 this.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 richTextBox1.Text = parsedData.explanation.ToString();
+            }
         }
-        }
+
 
         public class Nasa
         {
-            public string copyright { get; set; }
             public string date { get; set; }
             public string explanation { get; set; }
             public string hdurl { get; set; }
